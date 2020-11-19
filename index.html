@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's Nederland | McFlurry </title>    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" crossorigin="anonymous">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <!-- Font awesome voor coole icoontjes -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<style>
+  
+        header {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background:  hsl(141, 33.9%, 23.1%);
+            color: #ffbc0d;
+            height: 40px;
+            text-transform: uppercase;
+            }
+        
+        footer {
+            background:  hsl(141, 33.9%, 23.1%);
+            color: #ffbc0d;
+        }
+
+        .card-body:hover {
+          background-color: lightgray;
+        }
+
+        .btn-success {
+        background-color: #274f35;
+        border: 1px solid #274f35;
+        color: #ffbc0d;
+        }
+
+        .btn-success:hover{
+        background-color: #ffbc0d;
+        border: 1px solid #274f35;
+        color: #274f35;
+        }
+
+        
+        
+    </style>
+
+    <script>
+       function clicked() {
+            alert("hi");
+        }
+    </script>
+
+</head>
+<body>
+    
+    <header>          
+        <i>
+          <h3 id="headingText"><b> Mc Donalds</b> 
+          </h3>
+        </i>
+        </header>
+
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/McFlurryTwix.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Een McFlurry met stukjes koek, chocoladeballetjes en smeuïge karamelsaus!</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                        <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p1">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/McFlurryStrawberryCheesecake.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Mix er deze zomer op los met romig softijs, aardbeien en stukjes cheesecake.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                  </div>
+                  <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p2">Bestel</button>
+
+                  <small class="text-muted">340 kCal</small>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/McFlurryMenM.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Onze McFlurry's hebben ieder een eigen recept, met een saus en lekkere toppings. In deze McFlurry: knapperige stukjes M&M! </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                  </div>
+                  <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p3">Bestel</button>
+
+                  <small class="text-muted">340 kCal</small>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/McFlurry-Oreo.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Onze McFlurry's hebben ieder een eigen recept, met een saus en lekkere toppings. In deze McFlurry: knapperige stukjes Oreo en een heerlijke chocoladesaus! </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p4">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/SundaeIJsAardbeiensaus.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Tijd voor iets lekker koels! Ga voor een romig dessert met aardbeiensaus. De voedingswaarde en allergeneninformatie zijn inclusief pindastukjes. De pindastukjes worden apart in een zakje meegegeven.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p5">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/SundaeIjsChocoladesaus.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Tijd voor iets lekker koels! Ga voor een romig dessert met karamelsaus. inclusief pindastukjes. De pindastukjes worden apart in een zakje meegegeven. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p6">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="img/SundaeIJsKaramelsaus.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Tijd voor iets lekker koels! Ga voor een romig dessert met karamelsaus, inclusief pindastukjes. De pindastukjes worden apart in een zakje meegegeven.  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p7">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="/img/TripleChocolateCookie.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Niet 1, 2 maar zelfs 3 soorten chocolade in deze crunchy koek. Met melk, pure én witte chocolade.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p8">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="/img/WhiteChocolateRaspberryCookie.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> Een lekker krokante koek met witte chocolade en framboos. Vers uit de oven, iedere ochtend!</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="span">
+                      <i class="fa fa-euro"> 2,75</i>
+                    </div>
+                    <button type="button" class="btn btn-sm outline-secondary btn btn-success" id="p9">Bestel</button>
+                    <small class="text-muted">340 kCal</small>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://nl.linkedin.com/in/mehmet-hastan-b484a5174"> Mehmet Hastan</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script type="module" src="start.js"></script>
+    <!-- Bootstrap JS files -->
+    <script src="js/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/proper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
